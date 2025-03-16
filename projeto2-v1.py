@@ -3,12 +3,12 @@
 
 # Imports
 import os
-import shutil
+import shutil 
 import zipfile
 import tkinter as tk
 from tkinter import messagebox
 
-# Função para buscar arquivos CSV em um diretório específico.
+# Função para buscar arquivos CSV em um diretório (pasta) específico.
 def dsa_busca_arquivos_csv(diretorio):
 
     # Lista para armazenar os caminhos dos arquivos CSV encontrados.
@@ -32,7 +32,7 @@ def dsa_busca_arquivos_csv(diretorio):
 # Função para compactar uma lista de arquivos em um arquivo zip.
 def dsa_compacta_arquivos(arquivos, origem):
 
-    # Abre um arquivo zip para escrita.
+    # Abre um arquivo zip em modo de escrita para gravarmos coisas. Nesse caso vamos gravar os arquivos.
     with zipfile.ZipFile(origem, 'w') as zipf:
 
         # Percorre cada arquivo na lista de arquivos.

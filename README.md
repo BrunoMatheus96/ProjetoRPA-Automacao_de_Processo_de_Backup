@@ -1,0 +1,2 @@
+# Objetivo
+O objetivo do projeto é automatizar a busca de backups de dados importantes, realizar a transferência segura de arquivos, aplicar criptografia para proteger informações sensíveis e implementar registros de logging para monitorar e documentar as atividades do sistema. A automação desses processos visa otimizar operações e garantir a segurança e integridade dos dados.
