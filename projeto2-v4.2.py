@@ -39,10 +39,10 @@ def dsa_exibe_popup(mensagem, sucesso=True):
 def dsaprojeto2():
 
     # Diretório onde o arquivo zip de backup está localizado
-    diretorio_arquivo = "/Users/dmpm/Dropbox/DSA4.0/Automation-Python-Excel-IA/Cap07/destino"
+    diretorio_arquivo = "C:\\Users\\55119\\Documents\\Projetos_e_Estudos\\DSA\\ProjetoRPA-Automacao_de_Processo_de_Backup\\destino"
 
     # Diretório onde os arquivos serão extraídos
-    diretorio_final = "/Users/dmpm/Dropbox/DSA4.0/Automation-Python-Excel-IA/Cap07/destino/final"
+    diretorio_final = "C:\\Users\\55119\\Documents\\Projetos_e_Estudos\\DSA\\ProjetoRPA-Automacao_de_Processo_de_Backup\\destino\\final"
     
     # Arquivo onde a chave de criptografia está armazenada
     chave_arquivo = "chave.key"

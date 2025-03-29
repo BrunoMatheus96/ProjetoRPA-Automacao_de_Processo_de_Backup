@@ -81,8 +81,8 @@ def dsa_exibe_popup(mensagem, sucesso=True):
 def dsaprojeto2():
 
     # Diretórios
-    diretorio_fonte = "/Users/dmpm/Dropbox/DSA4.0/Automation-Python-Excel-IA/Cap07/origem"
-    diretorio_destino = "/Users/dmpm/Dropbox/DSA4.0/Automation-Python-Excel-IA/Cap07/destino"
+    diretorio_fonte = "C:\\Users\\55119\\Documents\\Projetos_e_Estudos\\DSA\\ProjetoRPA-Automacao_de_Processo_de_Backup\\origem"
+    diretorio_destino = "C:\\Users\\55119\\Documents\\Projetos_e_Estudos\\DSA\\ProjetoRPA-Automacao_de_Processo_de_Backup\\destino"
     
     # Busca por arquivos CSV no diretório de origem.
     arquivos_csv = dsa_busca_arquivos_csv(diretorio_fonte)
